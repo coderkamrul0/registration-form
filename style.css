@@ -1,0 +1,63 @@
+.form-flex{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.reg-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(155,0,76,1) 0%, rgba(254,0,127,1) 100%);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+    font-weight: 400;
+}
+input{
+    padding: 10px 50px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #EDEDED;
+}
+.one{
+    margin-right: 40px;
+}
+.form{
+    background-color: #FFFFFD;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+input[type="radio"]{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    text-align: center;
+    margin-top: 25px;
+}
+button{
+    padding: 10px 208px;
+    border: none;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(254,0,127,1) 0%, rgba(155,0,76,1
+) 100%);
+color: white;
+font-size: 22px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.form h2{
+    font-family: arial;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(254,0,127,1);
+    padding-bottom: 5px;
+    
+}
